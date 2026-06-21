@@ -1,1 +1,1 @@
-"""Model architecture definitions: baseline (LR/SVM), GRU, ALBERT dataset wrapper."""
+"""Model architecture definitions: baseline (LR), GRU, ALBERT dataset wrapper."""

@@ -1,11 +1,11 @@
 """
-Sections 10-11 — Manual grid search for Logistic Regression and SVM.
+Sections 10-11 — Manual grid search for Logistic Regression.
 
 """
 import itertools
 import random
 from sklearn.metrics import f1_score
-from src.models.baseline import build_logistic_regression, build_svm, LR_PARAM_GRID, SVM_PARAM_GRID
+from src.models.baseline import build_logistic_regression, LR_PARAM_GRID
 from config import HYPERPARAM_SEARCH_SEED
 
 def grid_search(build_fn, param_grid, X_train, y_train, X_val, y_val):
