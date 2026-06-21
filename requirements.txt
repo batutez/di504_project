@@ -1,0 +1,32 @@
+# Core
+numpy
+pandas
+
+# ML baselines
+scikit-learn
+
+# Deep learning
+torch
+# (on Colab, the preinstalled CUDA build is usually fine — don't reinstall
+
+
+# Transformer
+transformers
+
+# Hyperparameter search
+optuna
+
+# Text augmentation
+nlpaug
+nltk
+
+# Visualization
+matplotlib
+seaborn
+
+# TODO: uncomment the lines above once you've confirmed each import works,
+# and pin exact versions, e.g. numpy==1.26.4 — don't leave this unpinned in
+# your final submission (Section 24 deliverable).
+# Tip: at the very end of the project, `pip freeze > requirements.txt` in
+# your actual working environment captures everything exactly as used —
+# just review the output and trim anything irrelevant Colab adds by default.

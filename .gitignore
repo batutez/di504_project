@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode
+# OS
+.DS_Store
+# DOCX
+*.docx
+/reports
+
+*.pt
+*.pth
+*.bin
+*.ckpt
+checkpoints/
+models/*.pkl
+
+.env
