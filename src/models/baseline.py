@@ -4,7 +4,6 @@ Sections 10-11 — Baseline models, Logistic Regression.
 
 """
 from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
 from config import GLOBAL_SEED
 
 LR_PARAM_GRID = {
