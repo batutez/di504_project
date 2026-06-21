@@ -25,8 +25,7 @@ Two improvements beyond the original paper: EDA based augmentation on the four s
 src/                  preprocessing, models, training, evaluation code
 data/                 raw + cached preprocessed data (gitignored)
 outputs/              figures, results, model checkpoints (gitignored)
-reports/              report-as-you-go notes, deviations from the paper,
-                      final report outline
+
 01_pipeline.ipynb        full pipeline: baseline, GRU, comparison, analysis
 albert_finetuning.ipynb  ALBERT fine-tuning (run separately, GPU-heavy)
 ```
